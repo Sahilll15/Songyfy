@@ -1,0 +1,52 @@
+/* songs.css */
+
+.song-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: fixed;
+  }
+  
+  .song-container {
+    margin-top: 100px;
+  
+    display: flex;
+    justify-content: center;
+  }
+  
+  .song-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .card img {
+    width: 100%;
+    max-width: 150px; /* Adjust the max-width as needed */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .card .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
